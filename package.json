@@ -2,6 +2,7 @@
   "name": "vite-electron-plugin-demo",
   "version": "0.0.0",
   "private": true,
+  "main": "dist-electron/main.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +14,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "electron": "^32.0.1",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
